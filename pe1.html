@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+   COM319 Internet Application and Development
+   Week One: Web Pages and Structure
+
+   Practical Exercise 1 - Build a basic web page
+   Author: Michael Fetick, 84270
+   Date:   11 October 2014
+
+   Location/Filename: pe1.htm
+   Supporting files:  (none)
+   Linked pages:      (none)
+   -->
+   <meta charset="utf-8" />
+   <title>PE1- Build a basic web page</title>
+</head>
+<body>
+<!-- Start page container -->
+<div class="container">
+	<header role="banner">
+		<div style="text-align:center" >WELCOME!&nbsp;&nbsp;</div>
+		<nav role="navigation">
+			About | 
+			<a href="#">Examples</a> | 
+			<a href="#">Errata	</a> | 
+			<a href="#">Opinions</a> | 
+			<a href="#">Buy Now	</a> | 
+			<a href="#">Home	</a>
+		</nav>
+	</header>
+
+	<!-- Column One when CSS applied -->
+	<main role="main">
+		<article style="text-align:center" >
+			<h1 id="head">Mike Fetick's 
+			<br />COM319 Internet Application and Development
+			<br />Practical Exercise 1 - Build a basic web page</h1>
+			<p>This is the main heading and description of the article.</p>
+			<section class="subhead">
+				<h2><u title="A little about it...">About: (the first section)</u></h2>
+				<h3><em>This is a subheading and I didn't skip heading levels</em></h3>
+				<p id="firstp">This is the first paragraph of the topic.</p>
+			</section>
+			<section class="subhead">
+				<h2><u title="Let's get this started...">Getting Started</u></h2>
+				<p><h3><em>Getting started with a little practice...</em></h3></p>
+				<p>...And before you know it you're a professional.</p>
+			</section>
+			<section class="subhead">
+				<h2><u title="Here's a tooltip!">Tips <small>(hover the mouse here)</small></u></h2>
+				<p><h3><em>These are tips to help you...</em></h3></p>
+				<p>If you have any tips to share, contact us!</p>
+			</section>
+			<section class="subhead">
+				<h2><u title="We don't gloss over anything!">Glossary</u></h2>
+				<p><h3><em>Find something quickly in the glossary.</em></h3></p>
+				<p>It's right there for you!</p>
+			</section>
+			<section class="subhead">
+				<h2><u title="Try a sample.">Samples</u></h2>
+				<p><h3><em>Here are samples...</em></h3></p>
+				<p>Take a sample!</p>
+			</section>
+		</article>
+	</main>
+	<!-- end column One -->
+
+	<!-- Column Two when CSS applied -->
+	<div class="sidebar">
+		<aside role="complimentary"> 
+			<h1>Inside the Aside</h1>
+			<ul>
+				<li class="newGroup"><a href="#">Home</a></li>
+				<li><a href="#">Getting Started</a></li>
+				<li><a href="#">Tips</a></li>
+				<li><a href="#">Glossary</a></li>
+				<li><a href="#">Samples</a></li>
+				<li class="newGroup"><a href="#">Online Store</a></li>
+				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="#">Your Account</a></li>
+				<li><a href="#">Customer Service</a></li>
+				<li class="newGroup"><a href="#">About Us</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</aside>
+	</div>
+	<!-- end column Two -->
+
+	<footer role="contentinfo">
+		<address style="text-align:center" >
+		Coleman University &#183;
+		Student Services <br/>
+		8888 Balboa Avenue <br/>
+		San Diego, CA 92123
+		</address>
+	</footer>	  
+</div>
+</body>
+</html>
